@@ -2,10 +2,10 @@ package com.example.equals;
 
 public class equalsTest {
     public static void main(String[] args) {
-        Employee alice1 = new Employee("qaz", 3800, 1991, 2, 4);
+        Employee alice1 = new Employee("edg", 3800, 1991, 2, 4);
         Employee alice2 = alice1;
-        Employee alice3 = new Employee("edc", 5600, 1993, 6, 3);
-        Employee bob = new Employee("mju", 6800, 1989, 4, 1);
+        Employee alice3 = new Employee("rng", 5600, 1993, 6, 3);
+        Employee bob = new Employee("lgd", 6800, 1989, 4, 1);
 
         System.out.println("alice1 == alice2: " + (alice1 == alice2));
         System.out.println("alice1 == alice3: " + (alice1 == alice3));
